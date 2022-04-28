@@ -1,0 +1,570 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(200, 200, 200);
+    scroll-behavior: smooth;
+}
+
+/* Barra Lateral */
+
+aside {
+    height: 100vh;
+    width: 250px;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    border-right: 1px solid #777;
+    opacity: 1;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.mobile-menu {
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 28px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.aside-container img {
+    margin-top: 60px;
+    margin-bottom: 56px;
+    width: 100%;
+}
+
+.aside-container ul li {
+    margin: 60px 0;
+    list-style: none;
+}
+
+.aside-container ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.4s;
+    letter-spacing: 2px;
+}
+
+.aside-container ul li a:hover{
+    color: white;
+}
+
+/* O que fazemos */
+
+#what-we-do {
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+}
+
+.what-we-do-container {
+    margin: 0 40px 0 340px ;
+    padding-top: 285px;
+    display: flex;
+}
+
+
+.what-we-do-text {
+    margin-right: 100px;
+    width: 50%;
+}
+
+.what-we-do-text h4 {
+    font-weight: 400;
+}
+
+.what-we-do-text h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #888;
+}
+
+.what-we-do-text h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #999;
+    margin: 20px 0 15px 0;
+}
+
+.what-we-do-text h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999;
+    margin: 15px 0 20px 0;
+}
+
+.what-we-do-text p {
+    line-height: 32px;
+}
+
+.what-we-do-features {
+    display: flex;
+    width: 60%;
+}
+
+.what-we-do-features div {
+    width: 40%;
+    margin: 0 8px;
+}
+
+.what-we-do-features img {
+    border-radius: 6px;
+    width: 100%;
+    height: 140px;
+}
+
+.what-we-do-features p {
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.what-we-do-features h1 {
+    line-height: 36px;
+    margin-bottom: 108px;
+}
+
+.what-we-do-features span a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.what-we-do-features span a:hover {
+    color: white;
+}
+
+/* Plan News */
+
+#plan-news {
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+}
+
+.plan-news-container {
+    margin: 0 40px 0 340px;
+    padding-top: 160px;
+}
+
+.plan-news-text h4 {
+    font-weight: 400;
+}
+
+.plan-news-text h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #888;
+}
+
+.plan-news-cases {
+    display: flex;
+    margin-top: 40px;
+}
+
+.plan-news-cases img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.plan-news-case {
+    background-color: #333;
+    margin: 0 10px;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.plan-news-case>div {
+    padding: 20px;
+}
+
+.plan-news-cases h1 {
+    font-size: 20px;
+    color: #999;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.plan-news-cases p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.white-text {
+    color: white;
+}
+
+.plan-news-tag {
+    background-color: #888;
+    color: #222;
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.plan-news-case a {
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.plan-news-case a:hover {
+    color: white;
+}
+
+/* Contato */
+
+#contact {
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+}
+
+.contact-container {
+    margin: 0 40px 0 340px ;
+    padding-top: 285px;
+    display: flex;
+}
+
+.contact-container .form {
+    width: 40%;
+    margin-right: 100px;
+}
+
+.contact-container .form h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #888;
+}
+
+.contact-container .form p {
+    font-size: 14px;
+    margin: 30px 0;
+    line-height: 24px;
+}
+
+.contact-container .form label {
+    font-size: 20px;
+    display: block;
+}
+
+.contact-container .form input{
+    width: 100%;
+    outline: none;
+    height: 30px;
+    margin: 10px 0;
+    background-color: #222;
+    border: 1px solid #666;
+    padding: 10px;
+    border-top-right-radius: 24px;
+}
+
+.contact-container .form .message {
+    width: 100%;
+    outline: none;
+    height: 140px;
+    margin: 10px 0;
+    background-color: #222;
+    border: 1px solid #666;
+    padding: 10px;
+    border-top-right-radius: 24px;
+    resize: none;
+}
+
+.input-flex {
+    display: flex;
+}
+
+.input-flex div {
+    width: 48%;
+}
+
+.input-flex .first {
+    margin-right: 20px;
+}
+
+.contact-container form button {
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    background-color: #777;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-container form button:hover {
+    background-color: rgb(197, 197, 197);
+    color: #333;
+}
+
+.contact-container .infos {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.contact-container .infos h1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.contact-container .infos p {
+    line-height: 30px;
+}
+
+/* Responsividade */
+
+@media only screen and (max-width: 1400px) {
+
+    aside {
+        width: 200px;
+        left: 0;
+        opacity: 1;
+    }
+
+    .aside-container img {
+        width: 150px;
+    }
+
+    .aside-container ul li {
+        margin: 50px 0;
+    }
+
+    .aside-container ul li a {
+        font-size: 15px;
+    }
+
+    #what-we-do {
+        height: 100vh;
+        width: 100%;
+        background-color: #222;
+    }
+    
+    .what-we-do-container {
+        margin: 0 30px 0 260px ;
+        padding-top: 180px;
+    }
+    
+    
+    .what-we-do-text {
+        margin-right: 50px;
+    }
+    
+    .what-we-do-text h1 {
+        font-size: 40px;
+    }
+    
+    .what-we-do-text h2 {
+        font-size: 26px;
+    }
+    
+    .what-we-do-text h3 {
+        font-size: 14px;
+    }
+    
+    .what-we-do-text p {
+        line-height: 28px;
+    }
+    
+    .what-we-do-features div {
+        margin: 0 6px;
+    }
+    
+    .what-we-do-features img {
+        height: 100px;
+    }
+
+    .plan-news-container {
+        margin: 0 30px 0 260px;
+        padding-top: 100px;
+    }
+    
+    .plan-news-text h1 {
+        font-size: 40px;
+    }
+    
+    .plan-news-cases {
+        margin-top: 20px;
+    }
+    
+    .plan-news-case>div {
+        padding: 18px;
+    }
+    
+    .plan-news-cases h1 {
+        font-size: 18px;
+    }
+    
+    .plan-news-cases p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .contact-container {
+        margin: 0 0 0 280px;
+    }
+    
+    .contact-container .form {
+        margin-right: 60px;
+    }
+    
+    .contact-container .form h1 {
+        font-size: 40px;
+    }
+    
+    .contact-container .form label {
+        font-size: 18px;
+    }
+    
+    
+    .contact-container .infos h1 {
+        font-size: 20px;
+    }
+    
+    .contact-container .infos p {
+        line-height: 28px;
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    aside {
+        height: 100vh;
+        left: -250px;
+        width: 50%;
+        z-index: 1;
+        background-color: #222;
+        border: none;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    .aside-container ul li a{
+        font-size: 14px;
+    }
+
+    .mobile-nav {
+        width: 100%;
+        height: 100px;
+        display: block;
+        background-color: #111;
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    /* O que fazemos */
+
+    #what-we-do {
+        height: auto;
+    }
+    
+    .what-we-do-container {
+        margin: 0px 40px 0px 40px ;
+        display: block;
+    }
+    
+    .what-we-do-text {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .what-we-do-features {
+        display: block;
+        width: 100%;
+    }
+    
+    .what-we-do-features div {
+        width: 100%;
+        padding: 30px 0;
+    }
+    
+    .what-we-do-features img {
+        width: 60%;
+        height: 160px;
+    }
+    
+    .what-we-do-features h1 {
+        margin-bottom: 10px;
+    }
+    
+    /* Plan News */
+    
+    #plan-news {
+        height: auto;
+    }
+    
+    .plan-news-container {
+        margin: 0 40px 0 40px;
+    }
+
+    .plan-news-cases {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
+    .plan-news-cases img {
+        width: 100%;
+        margin-bottom: 20px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+    }
+    
+    .plan-news-case {
+        background-color: #333;
+        margin: 20px 0;
+        border-radius: 6px;
+        padding-bottom: 20px;
+    }
+    
+    /* Contato */
+
+    #contact {
+        height: auto;
+    }
+    
+    .contact-container {
+        margin: 0 40px 0px 40px ;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-container .form {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .contact-container .infos {
+        margin-top: 40px;
+        width: 100%;
+        grid-row-gap: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .contact-container .infos p {
+        line-height: 24px;
+        font-size: 12px;
+    }
+}
