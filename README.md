@@ -10,7 +10,7 @@ HTML, CSS e Javascript
 
 ## Demonstração
 
-![sitePlanXP](https://i.imgur.com/PhOGSZz.png)
+![sitePlanXP](https://i.imgur.com/Hjrjwak.png)
 
 
 ## Link para o projeto
